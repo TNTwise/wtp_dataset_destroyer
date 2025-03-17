@@ -1,7 +1,7 @@
-#input = "../DF2K_BHI_HR"
-#output = "../DF2K_BHI_LR"
-input = "../test"
-output = "../test_LR"
+input = "../DF2K_BHI_HR"
+output = "../DF2K_BHI_LR"
+#input = "../test"
+#output = "../test_LR"
 
 
 
@@ -84,8 +84,8 @@ shuffle_dataset = false
 num_workers = 16
 map_type = "thread"
 debug = false
-only_lq = true
-real_name = true
+only_lq = false
+real_name = false
 out_clear = true
 
 gray = false
