@@ -1,5 +1,5 @@
 input = "../DF2K_BHI_HR"
-output = "../DF2K_BHI_LR_Finetune"
+output = "../DF2K_BHI_LR_PreTrain"
 #input = "../test"
 #output = "../test_LR_Finetune"
 
