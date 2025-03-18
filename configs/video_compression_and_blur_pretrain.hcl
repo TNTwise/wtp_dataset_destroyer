@@ -56,7 +56,7 @@ degradation {
   }
   motion_size = [0,10]
   motion_angle = [-30,30]
-  probability = 0.3
+  probability = 0.1
 }
 
 degradation {
@@ -66,17 +66,17 @@ degradation {
     "4:4:4", "4:4:0", "4:2:2", "4:2:0"
   ]
   target_compress = {
-    h264 = [18,50]
-    av1 = [18,50]
-    hevc = [18,50]
+    h264 = [18,30]
+    av1 = [18,30]
+    hevc = [18,30]
     mpeg = [2,20]
-    mpeg2 = [2,55]
-    vp9 = [18,45]
+    mpeg2 = [2,30]
+    vp9 = [18,30]
     jpeg = [40,100]
     webp = [40,100]
   }
   compress = [40, 100]
-  probability = 0.9
+  probability = 0.6
 }
 laplace_filter = 0.02
 size = 100000000
